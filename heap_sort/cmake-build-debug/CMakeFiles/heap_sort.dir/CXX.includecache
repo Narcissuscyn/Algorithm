@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/narcissus/CLionProjects/heap_sort/MaxHeap.cpp
+iostream
+-
+form.h
+-
+MaxHeap.h
+/Users/narcissus/CLionProjects/heap_sort/MaxHeap.h
+
+/Users/narcissus/CLionProjects/heap_sort/MaxHeap.h
+heap.h
+/Users/narcissus/CLionProjects/heap_sort/heap.h
+
+/Users/narcissus/CLionProjects/heap_sort/heap.h
+
