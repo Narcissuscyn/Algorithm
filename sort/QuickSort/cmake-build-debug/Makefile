@@ -150,6 +150,114 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+t1.o: t1.cpp.o
+
+.PHONY : t1.o
+
+# target to build an object file
+t1.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t1.cpp.o
+.PHONY : t1.cpp.o
+
+t1.i: t1.cpp.i
+
+.PHONY : t1.i
+
+# target to preprocess a source file
+t1.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t1.cpp.i
+.PHONY : t1.cpp.i
+
+t1.s: t1.cpp.s
+
+.PHONY : t1.s
+
+# target to generate assembly for a file
+t1.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t1.cpp.s
+.PHONY : t1.cpp.s
+
+t2.o: t2.cpp.o
+
+.PHONY : t2.o
+
+# target to build an object file
+t2.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t2.cpp.o
+.PHONY : t2.cpp.o
+
+t2.i: t2.cpp.i
+
+.PHONY : t2.i
+
+# target to preprocess a source file
+t2.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t2.cpp.i
+.PHONY : t2.cpp.i
+
+t2.s: t2.cpp.s
+
+.PHONY : t2.s
+
+# target to generate assembly for a file
+t2.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t2.cpp.s
+.PHONY : t2.cpp.s
+
+t3.o: t3.cpp.o
+
+.PHONY : t3.o
+
+# target to build an object file
+t3.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t3.cpp.o
+.PHONY : t3.cpp.o
+
+t3.i: t3.cpp.i
+
+.PHONY : t3.i
+
+# target to preprocess a source file
+t3.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t3.cpp.i
+.PHONY : t3.cpp.i
+
+t3.s: t3.cpp.s
+
+.PHONY : t3.s
+
+# target to generate assembly for a file
+t3.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t3.cpp.s
+.PHONY : t3.cpp.s
+
+t4.o: t4.cpp.o
+
+.PHONY : t4.o
+
+# target to build an object file
+t4.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t4.cpp.o
+.PHONY : t4.cpp.o
+
+t4.i: t4.cpp.i
+
+.PHONY : t4.i
+
+# target to preprocess a source file
+t4.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t4.cpp.i
+.PHONY : t4.cpp.i
+
+t4.s: t4.cpp.s
+
+.PHONY : t4.s
+
+# target to generate assembly for a file
+t4.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/t4.cpp.s
+.PHONY : t4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... t1.o"
+	@echo "... t1.i"
+	@echo "... t1.s"
+	@echo "... t2.o"
+	@echo "... t2.i"
+	@echo "... t2.s"
+	@echo "... t3.o"
+	@echo "... t3.i"
+	@echo "... t3.s"
+	@echo "... t4.o"
+	@echo "... t4.i"
+	@echo "... t4.s"
 .PHONY : help
 
 

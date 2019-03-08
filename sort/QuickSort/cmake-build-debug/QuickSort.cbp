@@ -83,6 +83,18 @@
 		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/main.cpp">
 			<Option target="QuickSort"/>
 		</Unit>
+		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/t1.cpp">
+			<Option target="QuickSort"/>
+		</Unit>
+		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/t2.cpp">
+			<Option target="QuickSort"/>
+		</Unit>
+		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/t3.cpp">
+			<Option target="QuickSort"/>
+		</Unit>
+		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/t4.cpp">
+			<Option target="QuickSort"/>
+		</Unit>
 		<Unit filename="/Users/narcissus/recent/Algorithm/QuickSort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

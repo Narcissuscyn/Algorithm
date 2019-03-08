@@ -3,3 +3,7 @@
 
 CMakeFiles/QuickSort.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/QuickSort.dir/t1.cpp.o: ../t1.cpp
+
+CMakeFiles/QuickSort.dir/t2.cpp.o: ../t2.cpp
+

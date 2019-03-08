@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/narcissus/recent/Algorithm/QuickSort/main.cpp" "/Users/narcissus/recent/Algorithm/QuickSort/cmake-build-debug/CMakeFiles/QuickSort.dir/main.cpp.o"
+  "/Users/narcissus/recent/Algorithm/QuickSort/t1.cpp" "/Users/narcissus/recent/Algorithm/QuickSort/cmake-build-debug/CMakeFiles/QuickSort.dir/t1.cpp.o"
+  "/Users/narcissus/recent/Algorithm/QuickSort/t2.cpp" "/Users/narcissus/recent/Algorithm/QuickSort/cmake-build-debug/CMakeFiles/QuickSort.dir/t2.cpp.o"
+  "/Users/narcissus/recent/Algorithm/QuickSort/t3.cpp" "/Users/narcissus/recent/Algorithm/QuickSort/cmake-build-debug/CMakeFiles/QuickSort.dir/t3.cpp.o"
+  "/Users/narcissus/recent/Algorithm/QuickSort/t4.cpp" "/Users/narcissus/recent/Algorithm/QuickSort/cmake-build-debug/CMakeFiles/QuickSort.dir/t4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
