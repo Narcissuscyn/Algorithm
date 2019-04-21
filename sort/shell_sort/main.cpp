@@ -1,24 +1,19 @@
 #include <iostream>
 using namespace std;
-void shell_sort(int *a,int num)
+void shell_sort(int *arr,int num)
 {
-    if(a==NULL||num<2)
-        return;
-    int d=num/2;
-
-    while (d>0)
-    {
-        for(int i=0;i<num;i++)
-        {
-            if(i+d<num)
-                if(a[i]>a[i+d])swap(a[i],a[i+d]);
+    for (int g = num; g > 0; g /= 2) { // 增量序列 gap
+        for (int end = g; end < num; end++) { // 每一个组的结束元素, 从数组第gap个元素开始
+            // 每组做插入排序
+            int key = arr[end], i;
+            for (i = end - g; i >= 0 && key < arr[i]; i -= g) arr[i + g] = arr[i];
+            arr[i + g] = key;
         }
-        d/=2;
     }
 }
 
 int main() {
-    int a[]={8,7,6,5,4,3,2,1,10,11,12,13,14,15,16,17,19,19,20};
+    int a[]={8,9,1,7,2,3,5,4,6,0};
     int len=sizeof(a)/4;
     clock_t startTime,endTime;
     startTime = clock();//计时开始
@@ -31,4 +26,3 @@ int main() {
     }
     return 0;
 }
-
