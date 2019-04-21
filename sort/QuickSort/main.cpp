@@ -5,27 +5,17 @@ int partition(int *arr,int left,int right)
 {
     int base=arr[left];
 
-    int i=left+1,j=right;
-
-    while(i<j)
+    int index=left+1;
+    for(int i=index+1;i<=right;i++)
     {
-        while(arr[i]<=base)
+        if(arr[i]<base)
         {
-            i++;
-        }
-
-        while(arr[j]>base)
-        {
-            j--;
-        }
-        if(i<j)
-        {
-            swap(arr[i],arr[j]);
+            swap(arr[i],arr[index]);
+            index++;
         }
     }
-    if(arr[j]<arr[left])
-        swap(arr[left],arr[j]);
-    return j;
+    swap(arr[left],arr[index-1]);
+    return index-1;
 }
 
 int qsort_k(int * arr,int left,int right,int k)
