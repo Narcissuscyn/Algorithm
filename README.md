@@ -7,3 +7,6 @@ this repository is for algorithm exercise
 ## Chapter II 数据结构之树
 
 1. 多叉树：[https://github.com/Narcissuscyn/Algorithm/blob/master/Tree/n_ary_tree.pdf](https://github.com/Narcissuscyn/Algorithm/blob/master/Tree/n_ary_tree.pdf)
+
+## Chapter II 算法之搜索+回溯
+1.N皇后问题
