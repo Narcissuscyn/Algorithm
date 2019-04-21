@@ -9,5 +9,8 @@ this repository is for algorithm exercise
 1. 多叉树：[https://github.com/Narcissuscyn/Algorithm/blob/master/Tree/n_ary_tree.pdf](https://github.com/Narcissuscyn/Algorithm/blob/master/Tree/n_ary_tree.pdf)
 
 ## Chapter III 算法之搜索+回溯
-1.N皇后问题
+1.N皇后问题:
 
+## Other 
+
+1.KMP(模式匹配算法的理解)：[https://github.com/Narcissuscyn/Algorithm/blob/master/KMP.pdf](https://github.com/Narcissuscyn/Algorithm/blob/master/KMP.pdf)
