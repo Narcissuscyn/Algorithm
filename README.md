@@ -11,9 +11,14 @@ this repository is for algorithm exercise
 ## Chapter III 算法之搜索+回溯
 1.N皇后问题:
 
+## WordEmbedding
+- 常用模型：https://github.com/Narcissuscyn/Algorithm/blob/master/WordEmbedding_1_models.pdf
+- Word2vec要素：https://github.com/Narcissuscyn/Algorithm/blob/master/WordEmbeddingIngredients.pdf
+
 ## Other 
 
 1.KMP(模式匹配算法的理解)：[https://github.com/Narcissuscyn/Algorithm/blob/master/KMP.pdf](https://github.com/Narcissuscyn/Algorithm/blob/master/KMP.pdf)
 参考链接：[http://wiki.jikexueyuan.com/project/kmp-algorithm/define.html](http://wiki.jikexueyuan.com/project/kmp-algorithm/define.html)
 
 2.RANSAC算法的理解与实现：代码在本项目的ransac目录下，博客为：[https://github.com/Narcissuscyn/narcissuscyn.github.io/blob/master/_posts/2017-10-28-ransac.md](https://github.com/Narcissuscyn/narcissuscyn.github.io/blob/master/_posts/2017-10-28-ransac.md)
+
