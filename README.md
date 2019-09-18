@@ -22,3 +22,5 @@ this repository is for algorithm exercise
 
 2.RANSAC算法的理解与实现：代码在本项目的ransac目录下，博客为：[https://github.com/Narcissuscyn/narcissuscyn.github.io/blob/master/_posts/2017-10-28-ransac.md](https://github.com/Narcissuscyn/narcissuscyn.github.io/blob/master/_posts/2017-10-28-ransac.md)
 
+### 深度学习里面的一些技术(DL_basic_skills)
+1.物体检测里面的NMS: DL_basic_skills/nms_cpu.py
